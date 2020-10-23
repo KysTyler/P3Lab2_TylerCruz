@@ -64,12 +64,20 @@ int main(int argc, char** argv) {
             }
             case 3:
             {
-
+                int amount;
+                cout << "Ingrese la cantidad filas que quiere mostrar: " << endl;
+                cin >> amount;
                 break;
             }
         }
     }
     return 0;
+}
+
+int pascalsTriangle(int m) {
+    int size;
+    
+    
 }
 
 void primeFactorization(int array[], int num) {
